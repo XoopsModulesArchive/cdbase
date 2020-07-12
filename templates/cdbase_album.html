@@ -1,0 +1,35 @@
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="blockTitle"><{$artist}></td>
+  </tr>
+  <tr>
+    <td class="blockContent"><a href="index.php"><{$lang_main}></a> »» <a href="index.php?id_art=<{$id_art}>"><{$artist}></a> »» <{$lang_album_path}></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<{foreach item=disc from=$discs}>
+<table width="100%" border="0" class="albumTable" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="3" valign="middle" class="blockTitle"><{$disc.album}></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="left" valign="top" class="blockContent"><{$disc.description}></td>
+  </tr>
+  <tr>
+    <td width="30%" align="center" valign="top" class="blockContent"><div align="center"><{$disc.image}><br />
+    <{$disc.image2}></div></td>
+    <td width="50">&nbsp;</td>
+    <td width="64%" align="left" valign="top" class="blockContent"><p><strong><{$lang_year}>:</strong> <{$disc.year}><br />
+	<strong><{$lang_seal}>:</strong> <{$disc.seal}></p>
+	<p>
+	<strong><{$lang_tracks}>:</strong><br />
+	<{$disc.lists}>
+	</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<{/foreach}>
+
+

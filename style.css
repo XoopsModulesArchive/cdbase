@@ -1,0 +1,87 @@
+/* CSS Document */
+
+.thinborder{
+  float:left;
+  border:solid 1px yellowgreen;
+  padding:5px;
+  margin-right:5px;
+}
+
+.thinbordermain{
+  
+  border:solid 1px yellowgreen;
+  padding:5px;
+  margin-right:5px;
+}
+
+.dropcap {
+  float: left;
+  font: normal 60pt/0.8em Georgia,
+  Helvetica, Verdana, Arial, 
+  sans-serif;
+  color: yellowgreen;
+  margin-right: 3px;
+}
+
+.pullout{
+  width:30%;
+  padding:10px;
+  background-color:yellowgreen;
+  color:#F5F5F5;
+  float:right;
+  font: bold 14pt/1em Arial, 
+  Helvetica, sans-serif;
+  text-align:left;
+  letter-spacing: 0.05em;
+  margin:5px;
+  clear: both;
+}
+
+.albumContent {
+	padding:10px;
+}
+
+.albumTable {
+
+}
+
+.blockContent a:link {
+  color: #000000; 
+  text-decoration: none;
+}
+
+.blockContent a:active {
+  color: #000000; 
+  text-decoration: none;
+}
+
+.blockContent a:visited {
+  color: #000000; 
+  text-decoration: none;
+}
+
+.blockContent a:hover {
+  color: #A6B2DD; 
+  text-decoration: none;
+}
+
+.blockContentTrack a:link {
+  color: #000000; 
+  
+}
+
+.blockContentTrack a:active {
+  color: #000000; 
+  text-decoration: underline;
+}
+
+.blockContentTrack a:visited {
+  color: #000000; 
+  text-decoration: underline;
+}
+
+.blockContentTrack a:hover {
+  color: #A6B2DD; 
+  text-decoration: none;
+}
+

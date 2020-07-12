@@ -1,0 +1,21 @@
+<table class="indexTable" width="100%" cellspacing="1">
+  <tr>
+    <td class="blockTitle"><{$lang_categories}></td>
+  </tr>
+  <tr>
+  	<td class="blockContent"><{$intro}></td>
+  <tr>
+    <td class="blockContent">
+		<{foreach item=genre from=$genres}>
+			<strong><{$genre.des}></strong><br />
+        		<table>
+					<tr>
+						<{$genre.artists}>						
+					</tr>
+				</table>
+			<br />
+    	<{/foreach}>
+    </td>
+  </tr>
+</table>
+
